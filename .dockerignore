@@ -16,7 +16,7 @@ docker-compose.yml
 .github
 .vscode
 .nuxt
-.git
+# .git THIS IS NEEDED FOR buildMetadata
 data
 node_modules
 data
