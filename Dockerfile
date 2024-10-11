@@ -17,6 +17,7 @@ RUN pnpm install --frozen-lockfile
 
 COPY . .
 
+RUN pnpm run build:metadata
 RUN pnpm run build
 
 RUN rm -rf node_modules client/node_modules server/node_modules shared/node_modules "$(pnpm store path)"
